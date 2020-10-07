@@ -1,0 +1,13 @@
+Version 1.0.1 
+    Fixed: 
+        - Update plugins to their latest versions 
+        - Compatibility with Slider Revolution 6.0.9 
+        - Compatibility with WPBakery Page Builder 6.0.5
+        - Compatibility with WooCommerce 3.7
+        - Compatibility with PHP 7.3
+        - Update scripts  libraries
+        
+    Changed: 
+        - Update demo data
+
+Release – v.1.0

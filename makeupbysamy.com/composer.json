@@ -1,0 +1,371 @@
+{
+  "name": "roots/bedrock",
+  "type": "project",
+  "license": "MIT",
+  "description": "WordPress boilerplate with modern development tools, easier configuration, and an improved folder structure",
+  "homepage": "https://roots.io/bedrock/",
+  "authors": [
+    {
+      "name": "Scott Walkinshaw",
+      "email": "scott.walkinshaw@gmail.com",
+      "homepage": "https://github.com/swalkinshaw"
+    },
+    {
+      "name": "Ben Word",
+      "email": "ben@benword.com",
+      "homepage": "https://github.com/retlehs"
+    }
+  ],
+  "keywords": [
+    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
+  ],
+  "support": {
+    "issues": "https://github.com/roots/bedrock/issues",
+    "forum": "https://discourse.roots.io/category/bedrock"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+       {
+     "type": "package",
+     "package":{
+      "name": "josedu90/muji",
+      "type": "wordpress-theme",
+      "version":"1.4",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/muji/archive/master.zip"
+
+      }
+     }
+     
+   },
+
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/contact-form-7",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/contact-form-7/archive/master.zip"
+
+      }
+     }
+     
+   },
+
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/js_composer",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/js_composer/archive/master.zip"
+
+      }
+     }
+     
+   },
+
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/revslider",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/revslider/archive/master.zip"
+
+      }
+     }
+     
+   },
+
+
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/wp-media-folder",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/wp-media-folder/archive/master.zip"
+
+      }
+     }
+     
+   },
+
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/wp-media-folder-addon",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/wp-media-folder-addon/archive/master.zip"
+
+      }
+     }
+     
+   },
+
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/wphave-admin",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/wphave-admin/archive/master.zip"
+
+      }
+     }
+     
+    },
+       {
+     "type": "package",
+     "package":{
+      "name": "josedu90/wordpress-seo-premium",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/wordpress-seo-premium/archive/master.zip"
+
+      }
+     }
+     
+   },
+   {
+     "type": "package",
+     "package":{
+      "name": "josedu90/flow-flow",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/flow-flow/archive/master.zip"
+
+      }
+     }
+     
+    },
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/google-analytics-premium",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/google-analytics-premium/archive/master.zip"
+
+      }
+     }
+     
+    },
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/pixelyoursite-pro",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/pixelyoursite-pro/archive/master.zip"
+
+      }
+     }
+     
+    },
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/easy-social-share-buttons3",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/easy-social-share-buttons3/archive/master.zip"
+
+      }
+     }
+     
+    },
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/trx_addons",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/trx_addons/archive/master.zip"
+
+      }
+     }
+     
+    },
+
+     {
+     "type": "package",
+     "package":{
+      "name": "josedu90/contact-form-7-datepicker",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/contact-form-7-datepicker/archive/master.zip"
+
+      }
+     }
+     
+    },
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/wp-seo-multilingual",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/wp-seo-multilingual/archive/master.zip"
+
+      }
+     }
+     
+    },
+        {
+     "type": "package",
+     "package":{
+      "name": "josedu90/essential-grid",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/essential-grid/archive/master.zip"
+
+      }
+     }
+     
+    },
+      {
+     "type": "package",
+     "package":{
+      "name": "josedu90/translatepress-multilingual",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/translatepress-multilingual/archive/master.zip"
+
+      }
+     }
+     
+    },
+      {
+     "type": "package",
+     "package":{
+      "name": "josedu90/booked",
+      "type": "wordpress-plugin",
+      "version":"5.2.2",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/booked/archive/master.zip"
+
+      }
+     }
+     
+    },
+    {
+     "type": "package",
+     "package":{
+      "name": "josedu90/muji-child",
+      "type": "wordpress-theme",
+      "version":"1.4",
+      "dist":{
+      "type": "zip",
+      "url": "https://github.com/josedu90/muji-child/archive/master.zip"
+
+      }
+     }
+     
+   }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "composer/installers": "^1.8",
+    "vlucas/phpdotenv": "^4.1.8",
+    "oscarotero/env": "^2.1",
+    "roots/bedrock-autoloader": "^1.0",
+    "roots/wordpress": "5.5.1",
+    "roots/wp-config": "1.0.0",
+    "josedu90/muji": "*",
+    "josedu90/muji-child": "*",
+    "wpackagist-plugin/instagram-feed": "2.4.6",
+    "wpackagist-plugin/woocommerce": "4.4.1",
+    "wpackagist-plugin/widget-importer-exporter": "1.6",
+    "wpackagist-plugin/wordpress-importer": "0.7",
+    "josedu90/contact-form-7": "*",
+    "josedu90/js_composer": "*",
+    "josedu90/revslider": "*",
+    "josedu90/wp-media-folder": "*",
+    "josedu90/wp-media-folder-addon": "*",
+    "josedu90/flow-flow": "*",
+    "josedu90/google-analytics-premium": "*",
+    "josedu90/pixelyoursite-pro": "*",
+    "josedu90/wordpress-seo-premium": "*",
+    "josedu90/wphave-admin": "*",
+    "josedu90/easy-social-share-buttons3": "*",
+    "josedu90/trx_addons": "*",
+    "josedu90/translatepress-multilingual": "*",
+    "josedu90/essential-grid": "*",
+    "josedu90/wp-seo-multilingual": "*",
+    "josedu90/contact-form-7-datepicker": "*",
+    "josedu90/booked": "*",
+    "wpackagist-plugin/pixproof": "*",
+    "wpackagist-plugin/mailchimp-for-wp": "4.8",
+    "wpackagist-plugin/wp-gdpr-compliance": "1.5.4",
+    "wpackagist-plugin/wp-extra-file-types": "0.4.4",
+    "wpackagist-plugin/safe-svg": "1.9.9",
+    "roots/wp-password-bcrypt": "1.0.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5.6",
+    "roave/security-advisories": "dev-master"
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
+    },
+    "wordpress-install-dir": "web/wp"
+  },
+  "scripts": {
+    "post-root-package-install": [
+      "php -r \"copy('.env.example', '.env');\""
+    ],
+    "test": [
+      "phpcs"
+    ]
+  }
+}
